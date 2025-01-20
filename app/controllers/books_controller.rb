@@ -2,7 +2,7 @@ class BooksController < ApplicationController
   def index
     render json: Book.all
   end
-
+#pushing this to test commits since my other commit didnt work
   def create
     book = Book.new(book_params)
 
