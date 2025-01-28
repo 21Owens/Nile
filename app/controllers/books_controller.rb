@@ -14,7 +14,7 @@ class BooksController < ApplicationController
   end
 
   private
-
+#are commits working now
   def book_params
     params.require(:Book).permit(:title,:author)
   end
